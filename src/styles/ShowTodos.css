@@ -1,0 +1,39 @@
+/* ShowTodos.css */
+
+.todo-list {
+    margin-top: 20px;
+}
+
+.todo-list ul {
+    list-style: none;
+    
+    padding: 0;
+}
+
+.todo-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f4f4f4; 
+    border-radius: 8px; 
+}
+
+.todo-list li .todo-text {
+    font-family: 'Comic Sans MS', cursive; /* Igrački font */
+    font-size: 1.2rem;
+    color: #333; /* Tamna boja teksta */
+}
+
+.todo-list li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #FF4500; /* Narandžasta boja za gumb */
+    font-size: 1.5rem;
+}
+
+.todo-list li button:hover {
+    color: #FF6347; /* Promjena boje na hover */
+}

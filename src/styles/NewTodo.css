@@ -1,0 +1,39 @@
+/* NewTodo.css */
+
+.new-todo {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.new-todo label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.new-todo input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.new-todo button {
+width: fit-content;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.new-todo button:hover {
+    background-color: #45a049;
+}
+
+/* Možete dodati više stilova po potrebi */
