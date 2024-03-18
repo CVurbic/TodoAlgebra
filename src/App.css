@@ -1,0 +1,8 @@
+.App {
+    text-align: center; /* Centriranje sadržaja */
+}
+
+.App img {
+    display: block; /* Postavljanje slike kao blok elementa */
+    margin: 0 auto; /* Automatsko margiranje na lijevu i desnu stranu, što će centrirati sliku */
+}

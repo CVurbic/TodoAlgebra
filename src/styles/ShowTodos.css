@@ -1,12 +1,13 @@
 /* ShowTodos.css */
 
 .todo-list {
-    margin-top: 20px;
+    width: 90%;
+    margin:20px auto 0 auto;
 }
 
 .todo-list ul {
     list-style: none;
-    
+
     padding: 0;
 }
 
