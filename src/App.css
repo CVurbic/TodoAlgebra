@@ -2,7 +2,17 @@
     text-align: center; /* Centriranje sadržaja */
 }
 
-.App img {
-    display: block; /* Postavljanje slike kao blok elementa */
-    margin: 0 auto; /* Automatsko margiranje na lijevu i desnu stranu, što će centrirati sliku */
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%; 
 }
+  

@@ -3,9 +3,12 @@
 .new-todo {
     margin-bottom: 20px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 1rem;
+    position: fixed;
+    top: 200px;
+
+    left: 35%;
 }
 
 .new-todo label {
@@ -14,11 +17,12 @@
 }
 
 .new-todo input[type="text"] {
-    width: 90%;
+    width: 50%;
     padding: 8px;
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-left:4px ;
     box-sizing: border-box;
 }
 

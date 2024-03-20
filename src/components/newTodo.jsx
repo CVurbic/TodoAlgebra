@@ -26,8 +26,10 @@ class NewTodo extends React.Component {
     render() {
         return (
             <div className="new-todo">
-
-                <input type="text" value={this.state.todoText} onChange={this.handleChange} placeholder="Upiši novi zadatak" />
+                <label >
+                    Novi zadatak:
+                    <input type="text" value={this.state.todoText} onChange={this.handleChange} placeholder="Upiši novi zadatak" />
+                </label>
 
                 <button onClick={this.handleSubmitTodo}>Submit</button>
             </div>
